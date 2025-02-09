@@ -1,0 +1,72 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+
+}
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 1rem;
+}
+.navbar .logo .icon {
+  font-size: 3rem;
+  margin-right: 1rem;
+  color: var(--primary-color);
+}
+.hamburger {
+  display: none;
+  padding: 1rem;
+}
+.navbar .icon {
+  font-size: 1.4rem;
+  color: white;
+ 
+}
+.navbar .nav-menu {
+  display: flex;
+  padding: 1rem;
+}
+.navbar li {
+  padding: 1rem;
+  font-weight: 600;
+  color: white;
+}
+@media (max-width: 940px) {
+  .navbar .hamburger {
+    display: block;
+    
+  }
+ 
+  .navbar .nav-menu {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease;
+    
+   
+  }
+  .navbar .active {
+    left: 0;
+  }
+  .navbar li {
+    margin-right: 1rem;
+    font-size: 1.8rem;
+  }
+  .navbar button {
+    font-size: 1.6rem;
+  }
+}
