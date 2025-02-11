@@ -24,9 +24,57 @@
     color: var(--primary-color)
 }
 
+.display{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.856);
+    position: fixed;
+    top:50%;
+    left:12%;
+    margin:auto;
+    bottom: 50%;
+    height: fit-content;
+   
+    z-index: 1200;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 238, 255, 0.9);
+    
+}
+.display .content{
+    width:100%;
+    padding:1rem;
+    position: relative;
+    top:30px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display .icon{
+    font-size: 1.5rem;
+    position: absolute;
+    right:20px;
+    top:10px;
+    color:var(--primary-color)
+    
+}
+.display .icon:hover{
+   color:red;
+}
+.nullDisplay{
+    display:none;
+}
+
 
 @media(max-width: 942px){
     .hero .content{
         margin-left:1rem;
+    }
+    .display h2{
+        font-size: 2.2rem;
+    }
+    .display{
+        width:80%;
     }
 }
