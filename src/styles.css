@@ -1,6 +1,6 @@
 :root {
   --primary-color: #0fb8e0;
-  --primry-dark: #0d2154;
+  --primary-dark: #0d2154;
 }
 span {
   color: var(--primary-color);
@@ -32,9 +32,11 @@ h1{
 h2{
     font-size: 3rem;
 }
-.conatiner{
+.container{
     max-width: 1240px;
     margin:auto;
+    height: 100%;
+    position:relative;
 }
 button{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
@@ -47,6 +49,19 @@ button{
     font-weight: 500;
     display:flex;
     border-radius: 4px;
+
+}
+.submit{
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  padding: .7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-weight: 500;
+  display:flex;
+  border-radius: 4px;
 
 }
 button:hover{
