@@ -70,7 +70,7 @@
   .navbar .nav-menu {
     position: absolute;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     height: 100vh;
     top: 0;
     left: -100%;
