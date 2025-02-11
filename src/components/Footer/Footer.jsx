@@ -12,9 +12,11 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 
 const Footer = () => {
+
   return (
     <div className="footer">
       <div className="container">
@@ -38,7 +40,7 @@ const Footer = () => {
         <div className="col-container">
           <div className="col cursor-pointer ">
             <h3 className="text-2xl font-semibold">Navigation</h3>
-            <p>Home</p>
+            <p><NavLink to='/'>Home</NavLink></p>
            
             <p>Data</p>
             <p>Cloud</p>

@@ -33,15 +33,15 @@
     margin:auto;
     bottom: 50%;
     height: fit-content;
-   
+    padding:1rem;
     z-index: 1200;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 238, 255, 0.9);
     
 }
-.display .content{
+.display.content{
     width:100%;
-    padding:1rem;
+    
     position: relative;
     top:30px;
     margin-bottom: 20px;
