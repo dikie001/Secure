@@ -30,7 +30,7 @@
     margin: 1rem 0;
 }
 @media(max-width:940px){
-    .recover .content{
+    .recovery .content{
         width:100%;
     }
 }

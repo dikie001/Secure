@@ -7,7 +7,7 @@ const Data = () => {
       <div className="container">
         <div className="content">
           <h2 className="font-semibold">
-            <span className="font-semibold">Data</span>recovery
+            <span className="font-semibold">Data</span> Recovery
           </h2>
           <p>Welcome to Secured, your go-to resource for data recovery!
              We specialize in helping users recover lost, deleted, or corrupted files 
