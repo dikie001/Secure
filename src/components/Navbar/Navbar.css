@@ -59,6 +59,10 @@
 .navbar li a:hover, .navbar .navmenu li a:hover{
   color:var(--primary-color);
 }
+#x-icon:hover{
+  color:red;
+
+}
 
 
 @media (max-width: 940px) {

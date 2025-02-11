@@ -92,6 +92,10 @@
     color: #f8f8f8;
     font-size: 3rem;
 }
+.col p:hover{
+   color:var(--primary-color);
+   cursor:pointer;
+}
 
 
 
